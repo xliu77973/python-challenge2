@@ -68,4 +68,4 @@ output_path = os.path.join(
 with open(output_path, "w") as txt_file:
     txt_file.write(analysis)
 
-print(f"Results saved to {output_path}")
+print(f"\nResults saved to {output_path}")
